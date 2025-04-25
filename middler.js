@@ -1,0 +1,5 @@
+var baasha_text = "Charming‘s half-orc mentor, who belonged to the Barons. Was last told to row a boat from his lighthouse by Charming."
+var zhaq_text = "Orc Leader of the Tribals"
+var enania_text = "Astral Elf, sorta Leader of Lost Legacy Seekers (basically outlaw relic hunters and sellers); put Conriek and Kenwyn on a task to retrieve Ancient Crowd of Mafedors from Harmony Embrace Sanctum. They can do so by finding a secret map showing it's location - it is rumoured to be guarded inside Eldertome Wardens Keep (close to Nouver). She will greatly reward them + release Figol."
+var mycanand_text = "Biggest Barons hater in Dasan. Was the person who stole Talos statue ruby eye and was terrorizing Ludgo port with endless whirpool. Charming might‘ve been there when his parents got killed."
+var olstar_text = "Old half-elf; Talos priest. Used to be best friends with Nick Van Brickle and Tyrcoril."

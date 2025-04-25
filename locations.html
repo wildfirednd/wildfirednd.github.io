@@ -17,7 +17,9 @@
     <p>Pillaged Temple of Corellon
     <p>Main Keep
     <p><b>Characters residing in this place:</b>
-    <p>Zhaq Elf-Axe (Leader of Redwood Federation + Chieftain of the Orc Clan)
+    <div class="tooltip" onclick="window.location.href='npcs.html#zhaq'">Zhaq Elf-Axe (Leader of Redwood Federation + Chieftain of the Orc Clan)
+      <div id="zhaqtooltip" class="tooltip-text">Tooltip text</div>
+    </div>
     <p>Gwendolyn Mossheart (Chieftess of the Firbolg Clan)
     <p>Grulak Bonecrusher (Chieftain of the Bugbear Clan)
     <h2>
@@ -41,7 +43,9 @@
     <p><b>Places of interest:</b>
     <p>Ruins of Illmater/Talos temple
     <p><b>Characters residing in this place:</b>
-    <p>Olstar Illibalar
+    <div class="tooltip" onclick="window.location.href='npcs.html#olstar'">Olstar Illibalar
+      <div id="olstartooltip" class="tooltip-text">Tooltip text</div>
+    </div>
     <p>Clarrith Umexidor (Earl of Langdale’s Wife)
     <h2>
     Ludgo
@@ -108,5 +112,15 @@
     <p>Thornevale
     <p>Durnhold
     <p><b>Characters residing in this place:</b>
-    <p>Mycanand
+    <div class="tooltip" onclick="window.location.href='npcs.html#mycanand'">Mycanand
+      <div id="mycanandtooltip" class="tooltip-text">Tooltip text</div>
+    </div>
     <p>Aldric (Iron Hearth Coalition Elder)
+<script src="middler.js">
+</script>
+<script>
+  document.getElementById("zhaqtooltip").textContent = zhaq_text
+  document.getElementById("mycanandtooltip").textContent = mycanand_text
+  document.getElementById("olstartooltip").textContent = olstar_text
+</script>
+</body>

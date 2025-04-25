@@ -11,36 +11,36 @@
   <div class="container">
     <h2>Baasha</h2>
     <img src="assets/Baasha.png" class="header-image" />
-    <p>Charming‘s half-orc mentor, who belonged to the Barons. Was last told to row a boat from his lighthouse by Charming.
+    <p id="baasha_text">
 
     <h2>Enania</h2>
     <img src="assets/Enania.png" class="header-image" />
-    <p>Astral Elf, sorta Leader of Lost Legacy Seekers (basically outlaw relic hunters and sellers); put Conriek and Kenwyn on a task to retrieve Ancient Crowd of Mafedors from Harmony Embrace Sanctum. They can do so by finding a secret map showing it's location - it is rumoured to be guarded inside Eldertome Wardens Keep (close to Nouver). She will greatly reward them + release Figol.
+    <p id="enania_text">
   
-    <h2>Mycanand</h2>
+    <h2 id="mycanand">Mycanand</h2>
     <img src="assets/Mycanand.png" class="header-image" />
-    <p>Biggest Barons hater in Dasan. Was the person who stole Talos statue ruby eye and was terrorizing Ludgo port with endless whirpool. Charming might‘ve been there when his parents got killed.
+    <p id="mycanand_text">
     
-    <h2>Olstar Ilibalar</h2>
+    <h2 id="olstar">Olstar Illibalar</h2>
     <img src="assets/Olstar.png" class="header-image" />
-    <p>Old half-elf; Talos priest. Used to be best friends with Nick Van Brickle and Tyrcoril.
+    <p id="olstar_text">
 
     <h2>Thrain Thunderpeak</h2>
     <img src="assets/Thrain Thunderpeak.png" class="header-image" />
     <p>One of the biggest opps to the party. Went to Duchy of Nouran to join Goliath mercenary band called Pact of Titans.
 
-    <h2>Zhaq Elf-Axe</h2>
+    <h2 id="zhaq">Zhaq Elf-Axe</h2>
     <img src="assets/Zhaq Elf-Axe.png" class="header-image" />
-    <p>Orc Leader of the Tribals
+    <p id="zhaq_text">
 
     <h2>Neral Falcin</h2>
     <p>The Tiefling Caravan master who set the party up, but was killed by the Bhaalists themselves.
-    <h2>Unknown Half-Orc</h2>
-    <p>Worked alongside Neral Falcin, but escaped.
+    <h2>Arzud the Mason</h2>
+    <p>Worked alongside Neral Falcin and left the party to die. Later on got abducted by saviours of the pure and has fled the continent since then
     <h2>Figol</h2>
     <p>Innocent wood elf farmer, who travelled with the party. Later on got „abducted“ by Enania, who currently uses him as a bargaining chip for her deal.
     <h2>Dareon</h2>
-    <p>Bhaal Acolyte who was converted by Kenwyn to abandon Bhaal, later on got captured and tortured, <b>fate uncertain</b>
+    <p>Bhaal Acolyte who was converted by Kenwyn to abandon Bhaal, later on got captured and tortured, although his body was never found in Baldur’s Street 11th House, so his <b>fate is still uncertain</b>
     <h2>Cornelius Fullthorn</h2>
     <p>Halfling bard, who beefs with Charming; got bitched in Darrenfall bard-off
     <h2>Earl Earl</h2>
@@ -69,5 +69,24 @@
     <p>Priest of Lathander, who almost died in Deathfall Village. Told the party he would repay them in future. 
     <h2>Jimfred</h2>
     <p>Kobold who used to be servant of Tyrcoril, now considers Conriek as his master.
+    <h2>Gareth Ironshank</h2>
+    <p>A renowned dragonborn blacksmith who got his identity stolen by a changeling named Xilly. He’s been enslaved by his impostor for months before being rescued by the party, for whom he now owes his life. 
+    <h2>Xilly</h2>
+    <p>A changeling who stole Ironshank‘s identity and massively profited off of it. Once the party has busted him participating in the illegal activities, he has went missing.
+    <h2>Akseni</h2> 
+    <p>Leader of Drow vigilantes, fighting for equality and integrity of the drows who are living in Plodence.
+    <h2>Zeelia</h2>
+    <p>Akseni’s right-hand woman
+    <h2>Kenerek</h2>
+    <p>A drow warlock from the underdark ghettos of Plodence. Ex-Beliver of Lolth. Used to terrorize the city, now has moved onto trying to achieve a godhood.
+
 </body>
+<script src="middler.js"></script>
+<script>
+  document.getElementById("baasha_text").textContent = baasha_text
+  document.getElementById("mycanand_text").textContent = mycanand_text
+  document.getElementById("enania_text").textContent = enania_text
+  document.getElementById("zhaq_text").textContent = zhaq_text
+  document.getElementById("olstar_text").textContent = olstar_text
+</script>
 </html>
